@@ -1,0 +1,1142 @@
+{
+  status: 401,
+  message: 'Invalid user role! Invalid user role!',
+  level: 'error',
+  timestamp: '2024-08-03 00:51:54'
+}
+{
+  status: 401,
+  message: 'Invalid user role! Invalid user role!',
+  level: 'error',
+  timestamp: '2024-08-03 00:52:16'
+}
+{
+  status: 401,
+  message: 'Access Denied. No token found! Access Denied. No token found!',
+  level: 'error',
+  timestamp: '2024-08-03 00:52:54'
+}
+{
+  status: 404,
+  message: 'Route not found Route not found',
+  level: 'error',
+  timestamp: '2024-08-03 00:56:31'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 00:57:14'
+}
+{
+  status: 401,
+  message: 'Access Denied. No token found! Access Denied. No token found!',
+  level: 'error',
+  timestamp: '2024-08-03 01:00:39'
+}
+{
+  status: 401,
+  message: 'Access Denied. No token found! Access Denied. No token found!',
+  level: 'error',
+  timestamp: '2024-08-03 01:00:40'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:00:57'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:00:58'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:01:13'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:01:14'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:01:14'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:01:15'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:01:18'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:01:20'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:01:20'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:02:38'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:02:40'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:02:40'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:02:41'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:02:42'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:02:44'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:03:00'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:03:54'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:04:42'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:04:43'
+}
+{
+  status: 403,
+  message: 'Only Admin are authorized for this action! Only Admin are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:04:53'
+}
+{
+  status: 403,
+  message: 'Only Admin are authorized for this action! Only Admin are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:04:54'
+}
+{
+  status: 403,
+  message: 'Only Admin are authorized for this action! Only Admin are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:04:55'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:05:39'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:05:57'
+}
+{
+  status: 401,
+  message: 'Invalid user role! Invalid user role!',
+  level: 'error',
+  timestamp: '2024-08-03 01:06:16'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:06:40'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:06:42'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:06:43'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:06:53'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:07:14'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:07:15'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:07:16'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:07:16'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:07:17'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:07:37'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:07:38'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:07:39'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:07:39'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:07:40'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:08:05'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:08:06'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:08:07'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:08:08'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:08:08'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:08:10'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:08:11'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:08:12'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:08:34'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:08:35'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:08:48'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:09:17'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:09:18'
+}
+{
+  status: 403,
+  message: 'Only Admin with access level lower than or equal to 1 are authorized for this action! Only Admin with access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:09:45'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:10:24'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:10:25'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:10:26'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:10:27'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 01:10:27'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:28:46'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:28:50'
+}
+{
+  status: 403,
+  message: 'Users cannot alter Admins Access Levels!! Users cannot alter Admins Access Levels!!',
+  level: 'error',
+  timestamp: '2024-08-03 01:30:28'
+}
+{
+  status: 403,
+  message: 'Users cannot alter Admins Access Levels!! Users cannot alter Admins Access Levels!!',
+  level: 'error',
+  timestamp: '2024-08-03 01:30:29'
+}
+{
+  status: 403,
+  message: 'Users cannot alter Admins Access Levels!! Users cannot alter Admins Access Levels!!',
+  level: 'error',
+  timestamp: '2024-08-03 01:30:33'
+}
+{
+  status: 403,
+  message: 'Users cannot alter Admins Access Levels!! Users cannot alter Admins Access Levels!!',
+  level: 'error',
+  timestamp: '2024-08-03 01:30:34'
+}
+{
+  status: 403,
+  message: 'Users cannot alter Admins Access Levels!! Users cannot alter Admins Access Levels!!',
+  level: 'error',
+  timestamp: '2024-08-03 01:30:34'
+}
+{
+  status: 403,
+  message: 'Users cannot alter Admins Access Levels!! Users cannot alter Admins Access Levels!!',
+  level: 'error',
+  timestamp: '2024-08-03 01:30:37'
+}
+{
+  status: 403,
+  message: 'Users cannot alter Admins Access Levels!! Users cannot alter Admins Access Levels!!',
+  level: 'error',
+  timestamp: '2024-08-03 01:30:38'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 2 are authorized for this action! Access level lower than or equal to 2 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:31:57'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 2 are authorized for this action! Access level lower than or equal to 2 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:31:58'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 2 are authorized for this action! Access level lower than or equal to 2 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:32:00'
+}
+{
+  status: 403,
+  message: 'Users cannot alter Admins Access Levels!! Users cannot alter Admins Access Levels!!',
+  level: 'error',
+  timestamp: '2024-08-03 01:37:51'
+}
+{
+  status: 403,
+  message: 'Users cannot alter Admins Access Levels!! Users cannot alter Admins Access Levels!!',
+  level: 'error',
+  timestamp: '2024-08-03 01:37:53'
+}
+{
+  status: 403,
+  message: 'Users cannot alter Admins Access Levels!! Users cannot alter Admins Access Levels!!',
+  level: 'error',
+  timestamp: '2024-08-03 01:37:54'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 2 are authorized for this action! Access level lower than or equal to 2 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:44:16'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 2 are authorized for this action! Access level lower than or equal to 2 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:44:25'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 2 are authorized for this action! Access level lower than or equal to 2 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:44:26'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 2 are authorized for this action! Access level lower than or equal to 2 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:44:27'
+}
+{
+  status: 401,
+  message: 'Invalid user role! Invalid user role!',
+  level: 'error',
+  timestamp: '2024-08-03 01:47:45'
+}
+{
+  status: 401,
+  message: 'Invalid user role! Invalid user role!',
+  level: 'error',
+  timestamp: '2024-08-03 01:47:47'
+}
+{
+  status: 400,
+  message: 'Invalid Credentials Invalid Credentials',
+  level: 'error',
+  timestamp: '2024-08-03 01:47:55'
+}
+{
+  status: 400,
+  message: 'Invalid Credentials Invalid Credentials',
+  level: 'error',
+  timestamp: '2024-08-03 01:48:08'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:48:27'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:48:29'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:48:30'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:48:30'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:48:31'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:48:32'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:48:32'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:48:33'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:48:33'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:48:53'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 01:48:54'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:01:45'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:01:46'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:04:25'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:04:26'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:04:28'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:05:02'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:05:03'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:05:03'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:05:04'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:06:01'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:06:14'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:06:24'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:24:17'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:24:27'
+}
+{
+  status: 403,
+  message: 'Users cannot alter Admins Access Levels!! Users cannot alter Admins Access Levels!!',
+  level: 'error',
+  timestamp: '2024-08-03 02:31:02'
+}
+{
+  status: 403,
+  message: 'Users cannot alter Admins Access Levels!! Users cannot alter Admins Access Levels!!',
+  level: 'error',
+  timestamp: '2024-08-03 02:31:04'
+}
+{
+  status: 400,
+  message: 'Invalid Credentials Invalid Credentials',
+  level: 'error',
+  timestamp: '2024-08-03 02:31:25'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:35:51'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:35:53'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:36:28'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:36:30'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:36:32'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:36:32'
+}
+{
+  status: 403,
+  message: 'Users cannot alter Admins Access Levels!! Users cannot alter Admins Access Levels!!',
+  level: 'error',
+  timestamp: '2024-08-03 02:37:40'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:39:20'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:39:21'
+}
+{
+  status: 403,
+  message: 'Access level lower than or equal to 1 are authorized for this action! Access level lower than or equal to 1 are authorized for this action!',
+  level: 'error',
+  timestamp: '2024-08-03 02:43:15'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Permission Forbidden Access Permission',
+  level: 'error',
+  timestamp: '2024-08-03 02:48:36'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Permission Forbidden Access Permission',
+  level: 'error',
+  timestamp: '2024-08-03 02:48:37'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 02:49:02'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Permission Forbidden Access Permission',
+  level: 'error',
+  timestamp: '2024-08-03 02:49:34'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Permission Forbidden Access Permission',
+  level: 'error',
+  timestamp: '2024-08-03 02:49:46'
+}
+{
+  status: 400,
+  message: 'User is already approved! User is already approved!',
+  level: 'error',
+  timestamp: '2024-08-03 02:50:08'
+}
+{
+  status: 404,
+  message: 'Route not found Route not found',
+  level: 'error',
+  timestamp: '2025-02-04 21:17:03'
+}
+{
+  name: 'TokenExpiredError',
+  message: 'jwt expired jwt expired',
+  expiredAt: 2024-08-05T07:52:18.000Z,
+  level: 'error',
+  stack: 'TokenExpiredError: jwt expired\n' +
+    '    at D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\jsonwebtoken\\verify.js:190:21\n' +
+    '    at getSecret (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at authenticate (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\middlewares\\authenticate.js:9:23)\n' +
+    '    at newFn (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at newFn (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  timestamp: '2025-02-04 21:17:09'
+}
+{
+  name: 'TokenExpiredError',
+  message: 'jwt expired jwt expired',
+  expiredAt: 2024-08-05T07:52:18.000Z,
+  level: 'error',
+  stack: 'TokenExpiredError: jwt expired\n' +
+    '    at D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\jsonwebtoken\\verify.js:190:21\n' +
+    '    at getSecret (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at authenticate (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\middlewares\\authenticate.js:9:23)\n' +
+    '    at newFn (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at newFn (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  timestamp: '2025-02-04 21:17:11'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-04 21:20:23'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-04 21:20:27'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-04 21:21:59'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-04 21:24:52'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-04 21:24:54'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-04 21:25:26'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-04 21:25:27'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-04 21:25:54'
+}
+{
+  status: 404,
+  message: 'Route not found Route not found',
+  level: 'error',
+  timestamp: '2025-02-04 22:05:40'
+}
+{
+  status: 401,
+  message: 'Access Denied. No token found! Access Denied. No token found!',
+  level: 'error',
+  timestamp: '2025-02-04 22:05:58'
+}
+{
+  level: 'error',
+  message: 'ForbiddenRequestError is not a constructor ForbiddenRequestError is not a constructor',
+  stack: 'TypeError: ForbiddenRequestError is not a constructor\n' +
+    '    at D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\middlewares\\authorize.js:18:13\n' +
+    '    at newFn (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at authenticate (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\middlewares\\authenticate.js:12:3)\n' +
+    '    at newFn (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at newFn (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express-async-errors\\index.js:16:20)',
+  timestamp: '2025-02-04 22:06:11'
+}
+{
+  status: 403,
+  message: 'Forbidden Access: Missing Permissions Forbidden Access: Missing Permissions',
+  level: 'error',
+  timestamp: '2025-02-04 22:07:09'
+}
+{
+  status: 403,
+  message: 'Forbidden Access: Missing Permissions Forbidden Access: Missing Permissions',
+  level: 'error',
+  timestamp: '2025-02-04 22:56:32'
+}
+{
+  status: 403,
+  message: 'Forbidden Access: Missing Permissions Forbidden Access: Missing Permissions',
+  level: 'error',
+  timestamp: '2025-02-04 22:56:34'
+}
+{
+  status: 403,
+  message: 'Forbidden Access: Missing Permissions Forbidden Access: Missing Permissions',
+  level: 'error',
+  timestamp: '2025-02-04 22:56:38'
+}
+{
+  errors: {
+    status: ValidatorError: `approveddd` is not a valid enum value for path `status`.
+        at validate (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaType.doValidate (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\node_modules\mongoose\lib\document.js:2948:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: '`approveddd` is not a valid enum value for path `status`.',
+        type: 'enum',
+        enumValues: [ 'pending', 'approved', 'rejected' ],
+        path: 'status',
+        value: 'approveddd'
+      },
+      kind: 'enum',
+      path: 'status',
+      value: 'approveddd',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  message: 'User validation failed: status: `approveddd` is not a valid enum value for path `status`. User validation failed: status: `approveddd` is not a valid enum value for path `status`.',
+  stack: 'ValidationError: User validation failed: status: `approveddd` is not a valid enum value for path `status`.\n' +
+    '    at Document.invalidate (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\mongoose\\lib\\document.js:3163:32)\n' +
+    '    at D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\mongoose\\lib\\document.js:2956:17\n' +
+    '    at D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\mongoose\\lib\\schematype.js:1352:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  timestamp: '2025-02-04 22:56:50'
+}
+{
+  status: 403,
+  message: 'Forbidden Access: Missing Permissions Forbidden Access: Missing Permissions',
+  level: 'error',
+  timestamp: '2025-02-04 23:02:03'
+}
+{
+  errors: {
+    status: ValidatorError: `approveddd` is not a valid enum value for path `status`.
+        at validate (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaType.doValidate (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\node_modules\mongoose\lib\document.js:2948:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: '`approveddd` is not a valid enum value for path `status`.',
+        type: 'enum',
+        enumValues: [ 'pending', 'approved', 'rejected' ],
+        path: 'status',
+        value: 'approveddd'
+      },
+      kind: 'enum',
+      path: 'status',
+      value: 'approveddd',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  message: 'User validation failed: status: `approveddd` is not a valid enum value for path `status`. User validation failed: status: `approveddd` is not a valid enum value for path `status`.',
+  stack: 'ValidationError: User validation failed: status: `approveddd` is not a valid enum value for path `status`.\n' +
+    '    at Document.invalidate (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\mongoose\\lib\\document.js:3163:32)\n' +
+    '    at D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\mongoose\\lib\\document.js:2956:17\n' +
+    '    at D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\mongoose\\lib\\schematype.js:1352:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  timestamp: '2025-02-04 23:03:29'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-04 23:08:28'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-04 23:08:31'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-04 23:08:32'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-04 23:08:32'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-04 23:08:39'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 02:28:08'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 02:28:10'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 02:28:13'
+}
+{
+  status: 403,
+  message: 'Forbidden Access: Missing Permissions Forbidden Access: Missing Permissions',
+  level: 'error',
+  timestamp: '2025-02-05 02:29:37'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 02:31:48'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 02:31:54'
+}
+{
+  status: 400,
+  message: 'Invalid Level Invalid Level',
+  level: 'error',
+  timestamp: '2025-02-05 02:54:13'
+}
+{
+  status: 400,
+  message: 'Invalid Level Invalid Level',
+  level: 'error',
+  timestamp: '2025-02-05 02:54:15'
+}
+{
+  status: 400,
+  message: 'Invalid Level Invalid Level',
+  level: 'error',
+  timestamp: '2025-02-05 02:54:23'
+}
+{
+  status: 400,
+  message: 'Invalid Level Invalid Level',
+  level: 'error',
+  timestamp: '2025-02-05 02:54:24'
+}
+{
+  status: 400,
+  message: 'Invalid Level Invalid Level',
+  level: 'error',
+  timestamp: '2025-02-05 02:54:26'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 02:54:33'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 02:54:36'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 02:54:51'
+}
+{
+  status: 403,
+  message: 'Forbidden Access: Missing Permissions Forbidden Access: Missing Permissions',
+  level: 'error',
+  timestamp: '2025-02-05 02:58:36'
+}
+{
+  status: 403,
+  message: 'Forbidden Access: Missing Permissions Forbidden Access: Missing Permissions',
+  level: 'error',
+  timestamp: '2025-02-05 02:58:54'
+}
+{
+  status: 403,
+  message: 'Forbidden Access: Missing Permissions Forbidden Access: Missing Permissions',
+  level: 'error',
+  timestamp: '2025-02-05 02:58:57'
+}
+{
+  status: 400,
+  message: 'Invalid Level Invalid Level',
+  level: 'error',
+  timestamp: '2025-02-05 02:59:48'
+}
