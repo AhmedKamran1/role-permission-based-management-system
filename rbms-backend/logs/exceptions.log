@@ -6226,3 +6226,1423 @@
   ],
   timestamp: '2025-02-05 02:53:25'
 }
+{
+  error: ReferenceError: removeAd is not defined
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\routes\user.js:70:3)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:110:18)
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\startup\routes.js:4:14)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10),
+  level: 'error',
+  message: 'uncaughtException: removeAd is not defined\n' +
+    'ReferenceError: removeAd is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:70:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js:4:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  stack: 'ReferenceError: removeAd is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:70:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js:4:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  exception: true,
+  date: 'Wed Feb 05 2025 20:15:14 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 18340,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 87195648,
+      heapTotal: 59277312,
+      heapUsed: 32958664,
+      external: 19347492,
+      arrayBuffers: 18396608
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 435172 },
+  trace: [
+    {
+      column: 3,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js',
+      function: null,
+      line: 70,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 110,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2025-02-05 20:15:14'
+}
+{
+  error: ReferenceError: removeAdminF is not defined
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\routes\user.js:71:3)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:110:18)
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\startup\routes.js:4:14)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10),
+  level: 'error',
+  message: 'uncaughtException: removeAdminF is not defined\n' +
+    'ReferenceError: removeAdminF is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:71:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js:4:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  stack: 'ReferenceError: removeAdminF is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:71:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js:4:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  exception: true,
+  date: 'Wed Feb 05 2025 20:15:17 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 17268,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 87330816,
+      heapTotal: 59801600,
+      heapUsed: 33188888,
+      external: 19355684,
+      arrayBuffers: 18404800
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 435175.265 },
+  trace: [
+    {
+      column: 3,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js',
+      function: null,
+      line: 71,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 110,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2025-02-05 20:15:17'
+}
+{
+  error: ReferenceError: updateAdminLevel is not defined
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\controllers\users.js:127:3)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:110:18)
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\routes\user.js:12:5)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10),
+  level: 'error',
+  message: 'uncaughtException: updateAdminLevel is not defined\n' +
+    'ReferenceError: updateAdminLevel is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\controllers\\users.js:127:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:12:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  stack: 'ReferenceError: updateAdminLevel is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\controllers\\users.js:127:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:12:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  exception: true,
+  date: 'Wed Feb 05 2025 20:18:44 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 7460,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 87650304,
+      heapTotal: 59801600,
+      heapUsed: 33203272,
+      external: 19347492,
+      arrayBuffers: 18396608
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 435381.812 },
+  trace: [
+    {
+      column: 3,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\controllers\\users.js',
+      function: null,
+      line: 127,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 110,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2025-02-05 20:18:44'
+}
+{
+  error: ReferenceError: updateAdminLevel is not defined
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\controllers\users.js:127:3)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:110:18)
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\routes\user.js:12:5)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10),
+  level: 'error',
+  message: 'uncaughtException: updateAdminLevel is not defined\n' +
+    'ReferenceError: updateAdminLevel is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\controllers\\users.js:127:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:12:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  stack: 'ReferenceError: updateAdminLevel is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\controllers\\users.js:127:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:12:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  exception: true,
+  date: 'Wed Feb 05 2025 20:20:12 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 18868,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 87216128,
+      heapTotal: 59539456,
+      heapUsed: 32956664,
+      external: 19347492,
+      arrayBuffers: 18396608
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 435470.296 },
+  trace: [
+    {
+      column: 3,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\controllers\\users.js',
+      function: null,
+      line: 127,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 110,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2025-02-05 20:20:12'
+}
+{
+  error: ReferenceError: updateAdminLevel is not defined
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\controllers\users.js:127:3)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:110:18)
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\routes\user.js:12:5)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10),
+  level: 'error',
+  message: 'uncaughtException: updateAdminLevel is not defined\n' +
+    'ReferenceError: updateAdminLevel is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\controllers\\users.js:127:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:12:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  stack: 'ReferenceError: updateAdminLevel is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\controllers\\users.js:127:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:12:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  exception: true,
+  date: 'Wed Feb 05 2025 20:20:32 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 12856,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 87683072,
+      heapTotal: 59539456,
+      heapUsed: 33264352,
+      external: 19347492,
+      arrayBuffers: 18396608
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 435489.484 },
+  trace: [
+    {
+      column: 3,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\controllers\\users.js',
+      function: null,
+      line: 127,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 110,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2025-02-05 20:20:32'
+}
+{
+  error: Error: Route.patch() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as patch] (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\node_modules\express\lib\router\route.js:211:15)
+      at proto.<computed> [as patch] (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\routes\user.js:52:8)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:110:18)
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\startup\routes.js:4:14),
+  level: 'error',
+  message: 'uncaughtException: Route.patch() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.patch() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as patch] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at proto.<computed> [as patch] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:52:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js:4:14)',
+  stack: 'Error: Route.patch() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as patch] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at proto.<computed> [as patch] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:52:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js:4:14)',
+  exception: true,
+  date: 'Wed Feb 05 2025 20:20:59 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 13704,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 87302144,
+      heapTotal: 59801600,
+      heapUsed: 33248664,
+      external: 19355684,
+      arrayBuffers: 18404800
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 435516.453 },
+  trace: [
+    {
+      column: 15,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as patch]',
+      line: 211,
+      method: '<computed> [as patch]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as patch]',
+      line: 521,
+      method: '<computed> [as patch]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js',
+      function: null,
+      line: 52,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 110,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-02-05 20:20:59'
+}
+{
+  error: ReferenceError: updateAdmin is not defined
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\controllers\users.js:127:3)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:110:18)
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\routes\user.js:11:5)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10),
+  level: 'error',
+  message: 'uncaughtException: updateAdmin is not defined\n' +
+    'ReferenceError: updateAdmin is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\controllers\\users.js:127:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:11:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  stack: 'ReferenceError: updateAdmin is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\controllers\\users.js:127:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:11:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  exception: true,
+  date: 'Wed Feb 05 2025 20:25:36 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 17324,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 87494656,
+      heapTotal: 59801600,
+      heapUsed: 33142168,
+      external: 19347492,
+      arrayBuffers: 18396608
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 435794.296 },
+  trace: [
+    {
+      column: 3,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\controllers\\users.js',
+      function: null,
+      line: 127,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 110,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2025-02-05 20:25:36'
+}
+{
+  error: Error: Route.patch() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as patch] (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\node_modules\express\lib\router\route.js:211:15)
+      at proto.<computed> [as patch] (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\routes\user.js:51:8)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:110:18)
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\startup\routes.js:4:14),
+  level: 'error',
+  message: 'uncaughtException: Route.patch() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.patch() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as patch] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at proto.<computed> [as patch] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:51:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js:4:14)',
+  stack: 'Error: Route.patch() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as patch] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at proto.<computed> [as patch] (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:51:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js:4:14)',
+  exception: true,
+  date: 'Wed Feb 05 2025 20:25:54 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 18228,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 87592960,
+      heapTotal: 59801600,
+      heapUsed: 33354256,
+      external: 19356777,
+      arrayBuffers: 18405893
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 435812.109 },
+  trace: [
+    {
+      column: 15,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as patch]',
+      line: 211,
+      method: '<computed> [as patch]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as patch]',
+      line: 521,
+      method: '<computed> [as patch]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js',
+      function: null,
+      line: 51,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 110,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-02-05 20:25:54'
+}
+{
+  error: ReferenceError: updateUserToAdmin is not defined
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\routes\user.js:65:3)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:110:18)
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\startup\routes.js:4:14)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10),
+  level: 'error',
+  message: 'uncaughtException: updateUserToAdmin is not defined\n' +
+    'ReferenceError: updateUserToAdmin is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:65:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js:4:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  stack: 'ReferenceError: updateUserToAdmin is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:65:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js:4:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  exception: true,
+  date: 'Wed Feb 05 2025 20:26:07 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 18416,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 87343104,
+      heapTotal: 59801600,
+      heapUsed: 33045168,
+      external: 19347492,
+      arrayBuffers: 18396608
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 435825.359 },
+  trace: [
+    {
+      column: 3,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js',
+      function: null,
+      line: 65,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 110,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2025-02-05 20:26:07'
+}
+{
+  error: ReferenceError: updateUserToAdmin is not defined
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\routes\user.js:65:3)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:110:18)
+      at Object.<anonymous> (D:\Uni and Practise\html,css,js\Express Learning Journey\Role Based Management System\rbms-backend\startup\routes.js:4:14)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10),
+  level: 'error',
+  message: 'uncaughtException: updateUserToAdmin is not defined\n' +
+    'ReferenceError: updateUserToAdmin is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:65:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js:4:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  stack: 'ReferenceError: updateUserToAdmin is not defined\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js:65:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js:4:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  exception: true,
+  date: 'Wed Feb 05 2025 20:26:50 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 11356,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 87257088,
+      heapTotal: 59539456,
+      heapUsed: 33127856,
+      external: 19347492,
+      arrayBuffers: 18396608
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 435867.562 },
+  trace: [
+    {
+      column: 3,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\routes\\user.js',
+      function: null,
+      line: 65,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 110,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\startup\\routes.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2025-02-05 20:26:50'
+}

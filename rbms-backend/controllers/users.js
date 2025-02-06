@@ -12,7 +12,11 @@ const {
 const TOKENTYPES = require("../utils/constants/token-types");
 const { sendMail } = require("../utils/mailer");
 const { validatePassword } = require("../utils/password");
-const { ROLE_PERMISSIONS } = require("../utils/constants/permissions");
+const {
+  ROLE_PERMISSIONS,
+  FIXED_MODERATOR_PERMISSIONS,
+  DYNAMIC_MODERATOR_PERMISSIONS,
+} = require("../utils/constants/permissions");
 const ROLES = require("../utils/constants/roles");
 const STATUS = require("../utils/constants/status");
 
@@ -30,7 +34,6 @@ const updateAdminStatus = async (req, res) => {
   const user = await User.findById({ _id: id });
 
   if (!user) throw NotFoundError("User Not Found");
-  if (!user.isVerified) throw ForbiddenRequestError("User is not verified!");
   if (user.role !== ROLES.ADMIN) throw BadRequestError("Invalid Role");
 
   if (status === STATUS.APPROVED)
@@ -48,7 +51,6 @@ const updateModeratorStatus = async (req, res) => {
   const user = await User.findById({ _id: id });
 
   if (!user) throw NotFoundError("User Not Found");
-  if (!user.isVerified) throw ForbiddenRequestError("User is not verified!");
   if (user.role !== ROLES.MODERATOR) throw BadRequestError("Invalid Role");
 
   if (status === STATUS.APPROVED)
@@ -60,19 +62,36 @@ const updateModeratorStatus = async (req, res) => {
   res.send(user);
 };
 
-// update admin to basic/super level
-const updateAdminLevel = async (req, res) => {
+// update user/moderator to admin or update basic/super level
+const updateAdmin = async (req, res) => {
   const { id } = req.params;
   const { level } = req.body;
 
   const user = await User.findById({ _id: id });
 
   if (!user) throw NotFoundError("User Not Found");
-  if (!user.isVerified) throw ForbiddenRequestError("User is not verified!");
   if (!ROLE_PERMISSIONS.ADMIN[level]) throw BadRequestError("Invalid Level");
-  if (user.role !== ROLES.ADMIN) throw BadRequestError("Invalid Role");
 
-  user.set({ permissions: ROLE_PERMISSIONS.ADMIN[level] });
+  user.set({ role: ROLES.ADMIN, permissions: ROLE_PERMISSIONS.ADMIN[level] });
+
+  await user.save();
+
+  res.send(user);
+};
+
+// update user to moderator
+const updateModerator = async (req, res) => {
+  const { id } = req.params;
+
+  const user = await User.findById({ _id: id });
+
+  if (!user) throw NotFoundError("User Not Found");
+  if (user.role === ROLES.ADMIN) throw BadRequestError("Invalid Role");
+
+  user.set({
+    role: ROLES.MODERATOR,
+    permissions: ROLE_PERMISSIONS.MODERATOR,
+  });
 
   await user.save();
 
@@ -87,12 +106,43 @@ const updateModeratorPermissions = async (req, res) => {
   const user = await User.findById({ _id: id });
 
   if (!user) throw NotFoundError("User Not Found");
-  if (!user.isVerified) throw ForbiddenRequestError("User is not verified!");
-  if (!ROLE_PERMISSIONS.ADMIN[level]) throw BadRequestError("Invalid Level");
-  if (user.role !== ROLES.ADMIN) throw BadRequestError("Invalid Role");
+  if (user.role !== ROLES.MODERATOR) throw BadRequestError("Invalid Role");
 
-  user.set({ permissions: ROLE_PERMISSIONS.ADMIN[level] });
+  for (let permission of permissions) {
+    if (!DYNAMIC_MODERATOR_PERMISSIONS.includes(permission))
+      throw BadRequestError("Invalid Permission! Cannot be Assigned.");
+  }
+  user.set({ permissions: [...FIXED_MODERATOR_PERMISSIONS, ...permissions] });
 
+  await user.save();
+
+  res.send(user);
+};
+
+// remove admin to basic user
+const removeAdmin = async (req, res) => {
+  const { id } = req.params;
+
+  const user = await User.findById({ _id: id });
+
+  if (!user) throw NotFoundError("User Not Found");
+
+  user.set({ role: ROLES.USER, permissions: ROLE_PERMISSIONS.USER });
+  await user.save();
+
+  res.send(user);
+};
+
+// remove moderator to basic user
+const removeModerator = async (req, res) => {
+  const { id } = req.params;
+
+  const user = await User.findById({ _id: id });
+
+  if (!user) throw NotFoundError("User Not Found");
+  if (user.role !== ROLES.MODERATOR) throw BadRequestError("Invalid Role");
+
+  user.set({ role: ROLES.USER, permissions: ROLE_PERMISSIONS.USER });
   await user.save();
 
   res.send(user);
@@ -102,5 +152,9 @@ module.exports = {
   getAllUsers,
   updateAdminStatus,
   updateModeratorStatus,
-  updateAdminLevel,
+  updateAdmin,
+  updateModerator,
+  updateModeratorPermissions,
+  removeAdmin,
+  removeModerator,
 };

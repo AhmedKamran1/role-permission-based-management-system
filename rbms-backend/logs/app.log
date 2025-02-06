@@ -2680,3 +2680,587 @@
   level: 'info',
   timestamp: '2025-02-05 17:38:22'
 }
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 19:10:48'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 19:10:48'
+}
+{
+  status: 400,
+  message: 'Invalid Level Invalid Level',
+  level: 'error',
+  timestamp: '2025-02-05 19:10:50'
+}
+{
+  status: 400,
+  message: 'Invalid Level Invalid Level',
+  level: 'error',
+  timestamp: '2025-02-05 19:10:57'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 19:13:37'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 19:13:37'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 19:39:37'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 19:39:38'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 19:39:43'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 19:39:43'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 19:40:01'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 19:40:01'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 19:42:41'
+}
+{
+  status: 400,
+  message: 'Invalid Permission! Cannot be Assigned. Invalid Permission! Cannot be Assigned.',
+  level: 'error',
+  timestamp: '2025-02-05 19:43:59'
+}
+{
+  status: 400,
+  message: 'Invalid Permission! Cannot be Assigned. Invalid Permission! Cannot be Assigned.',
+  level: 'error',
+  timestamp: '2025-02-05 19:44:02'
+}
+{
+  status: 400,
+  message: 'Invalid Permission! Cannot be Assigned. Invalid Permission! Cannot be Assigned.',
+  level: 'error',
+  timestamp: '2025-02-05 19:44:09'
+}
+{
+  status: 400,
+  message: 'Invalid Permission! Cannot be Assigned. Invalid Permission! Cannot be Assigned.',
+  level: 'error',
+  timestamp: '2025-02-05 19:44:24'
+}
+{
+  status: 400,
+  message: 'Invalid Permission! Cannot be Assigned. Invalid Permission! Cannot be Assigned.',
+  level: 'error',
+  timestamp: '2025-02-05 19:44:29'
+}
+{
+  status: 400,
+  message: 'Invalid Permission! Cannot be Assigned. Invalid Permission! Cannot be Assigned.',
+  level: 'error',
+  timestamp: '2025-02-05 19:44:32'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 19:44:42'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 19:44:42'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-05 19:47:37'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-05 19:47:39'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 19:59:58'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 19:59:58'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 20:00:08'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 20:00:08'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 20:02:48'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 20:02:48'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-05 20:03:01'
+}
+{
+  level: 'error',
+  message: 'permissions is not iterable permissions is not iterable',
+  stack: 'TypeError: permissions is not iterable\n' +
+    '    at updateModeratorPermissions (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\controllers\\users.js:97:26)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-02-05 20:03:08'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 20:03:38'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 20:03:38'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 20:04:02'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 20:04:02'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 20:09:33'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 20:09:33'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 20:15:19'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 20:15:19'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 20:15:27'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 20:15:27'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 20:21:02'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 20:21:02'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 20:21:10'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 20:21:10'
+}
+{
+  status: 404,
+  message: 'Route not found Route not found',
+  level: 'error',
+  timestamp: '2025-02-05 20:22:16'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 20:22:21'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 20:22:21'
+}
+{
+  status: 400,
+  message: 'Invalid Level Invalid Level',
+  level: 'error',
+  timestamp: '2025-02-05 20:22:26'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 20:23:12'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 20:23:49'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 20:23:49'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 20:25:16'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 20:25:16'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 21:23:59'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 21:23:59'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 21:26:27'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 21:26:27'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 21:28:06'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 21:28:06'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 21:28:13'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 21:28:13'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 21:28:42'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 21:28:42'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 21:29:54'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 21:29:54'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 21:30:15'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 21:30:15'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 21:30:36'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 21:30:36'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 21:30:41'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 21:30:41'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 21:49:07'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 21:49:07'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 21:49:24'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 21:49:24'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-05 21:52:33'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-05 21:52:35'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 21:53:07'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 21:53:07'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-05 21:53:08'
+}
+{
+  status: 403,
+  message: 'Forbidden Access: Insufficient Permissions Forbidden Access: Insufficient Permissions',
+  level: 'error',
+  timestamp: '2025-02-05 21:53:15'
+}
+{
+  status: 403,
+  message: 'Forbidden Access: Insufficient Permissions Forbidden Access: Insufficient Permissions',
+  level: 'error',
+  timestamp: '2025-02-05 21:53:42'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 21:53:53'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 21:53:55'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 21:55:09'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 21:55:10'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 21:55:34'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 21:55:34'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 21:55:36'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 21:56:03'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 21:56:03'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 22:01:17'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 22:01:17'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 22:02:58'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 22:02:58'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 22:03:20'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 22:03:20'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 22:05:03'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 22:07:01'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 22:07:01'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 22:07:03'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 22:07:03'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 22:13:17'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 22:13:17'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 22:13:22'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 22:13:22'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 22:13:27'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 22:13:27'
+}
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-05 22:13:31'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-05 22:13:31'
+}

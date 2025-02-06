@@ -15,7 +15,7 @@ const authorize = (roles, permissions = []) => {
       permissions.length > 0 &&
       !permissions.every((permission) => userPermissions.includes(permission))
     ) {
-      throw ForbiddenRequestError("Forbidden Access: Missing Permissions");
+      throw ForbiddenRequestError("Forbidden Access: Insufficient Permissions");
     }
 
     next();

@@ -5,7 +5,11 @@ const {
   getAllUsers,
   updateAdminStatus,
   updateModeratorStatus,
-  updateAdminLevel,
+  updateModeratorPermissions,
+  removeAdmin,
+  updateAdmin,
+  updateModerator,
+  removeModerator,
 } = require("../controllers/users");
 
 // middlewares
@@ -47,9 +51,47 @@ router.patch(
   updateModeratorStatus
 );
 router.patch(
-  "/update-admin-level/:id",
+  "/update-admin/:id",
   [authenticate, authorize([ROLES.ADMIN], [PERMISSION_ENUM.MANAGE_ADMIN])],
-  updateAdminLevel
+  updateAdmin
+);
+router.patch(
+  "/update-moderator/:id",
+  [
+    authenticate,
+    authorize(
+      [ROLES.ADMIN, ROLES.MODERATOR],
+      [PERMISSION_ENUM.MANAGE_MODERATOR]
+    ),
+  ],
+  updateModerator
+);
+router.patch(
+  "/update-moderator-permissions/:id",
+  [
+    authenticate,
+    authorize(
+      [ROLES.ADMIN, ROLES.MODERATOR],
+      [PERMISSION_ENUM.MANAGE_MODERATOR]
+    ),
+  ],
+  updateModeratorPermissions
+);
+router.patch(
+  "/remove-admin/:id",
+  [authenticate, authorize([ROLES.ADMIN], [PERMISSION_ENUM.MANAGE_ADMIN])],
+  removeAdmin
+);
+router.patch(
+  "/remove-moderator/:id",
+  [
+    authenticate,
+    authorize(
+      [ROLES.ADMIN, ROLES.MODERATOR],
+      [PERMISSION_ENUM.MANAGE_MODERATOR]
+    ),
+  ],
+  removeModerator
 );
 
 module.exports = router;

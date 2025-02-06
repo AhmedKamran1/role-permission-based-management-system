@@ -1140,3 +1140,167 @@
   level: 'error',
   timestamp: '2025-02-05 02:59:48'
 }
+{
+  status: 400,
+  message: 'Invalid Level Invalid Level',
+  level: 'error',
+  timestamp: '2025-02-05 19:10:50'
+}
+{
+  status: 400,
+  message: 'Invalid Level Invalid Level',
+  level: 'error',
+  timestamp: '2025-02-05 19:10:57'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 19:42:41'
+}
+{
+  status: 400,
+  message: 'Invalid Permission! Cannot be Assigned. Invalid Permission! Cannot be Assigned.',
+  level: 'error',
+  timestamp: '2025-02-05 19:43:59'
+}
+{
+  status: 400,
+  message: 'Invalid Permission! Cannot be Assigned. Invalid Permission! Cannot be Assigned.',
+  level: 'error',
+  timestamp: '2025-02-05 19:44:02'
+}
+{
+  status: 400,
+  message: 'Invalid Permission! Cannot be Assigned. Invalid Permission! Cannot be Assigned.',
+  level: 'error',
+  timestamp: '2025-02-05 19:44:09'
+}
+{
+  status: 400,
+  message: 'Invalid Permission! Cannot be Assigned. Invalid Permission! Cannot be Assigned.',
+  level: 'error',
+  timestamp: '2025-02-05 19:44:24'
+}
+{
+  status: 400,
+  message: 'Invalid Permission! Cannot be Assigned. Invalid Permission! Cannot be Assigned.',
+  level: 'error',
+  timestamp: '2025-02-05 19:44:29'
+}
+{
+  status: 400,
+  message: 'Invalid Permission! Cannot be Assigned. Invalid Permission! Cannot be Assigned.',
+  level: 'error',
+  timestamp: '2025-02-05 19:44:32'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-05 19:47:37'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-05 19:47:39'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-05 20:03:01'
+}
+{
+  level: 'error',
+  message: 'permissions is not iterable permissions is not iterable',
+  stack: 'TypeError: permissions is not iterable\n' +
+    '    at updateModeratorPermissions (D:\\Uni and Practise\\html,css,js\\Express Learning Journey\\Role Based Management System\\rbms-backend\\controllers\\users.js:97:26)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-02-05 20:03:08'
+}
+{
+  status: 404,
+  message: 'Route not found Route not found',
+  level: 'error',
+  timestamp: '2025-02-05 20:22:16'
+}
+{
+  status: 400,
+  message: 'Invalid Level Invalid Level',
+  level: 'error',
+  timestamp: '2025-02-05 20:22:26'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 20:23:12'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-05 21:52:33'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-05 21:52:35'
+}
+{
+  status: 403,
+  message: 'Forbidden Access Forbidden Access',
+  level: 'error',
+  timestamp: '2025-02-05 21:53:08'
+}
+{
+  status: 403,
+  message: 'Forbidden Access: Insufficient Permissions Forbidden Access: Insufficient Permissions',
+  level: 'error',
+  timestamp: '2025-02-05 21:53:15'
+}
+{
+  status: 403,
+  message: 'Forbidden Access: Insufficient Permissions Forbidden Access: Insufficient Permissions',
+  level: 'error',
+  timestamp: '2025-02-05 21:53:42'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 21:53:53'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 21:53:55'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 21:55:09'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 21:55:10'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 21:55:36'
+}
+{
+  status: 400,
+  message: 'Invalid Role Invalid Role',
+  level: 'error',
+  timestamp: '2025-02-05 22:05:03'
+}
