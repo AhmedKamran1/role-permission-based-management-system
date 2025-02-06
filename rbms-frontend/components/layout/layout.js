@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../navbar/navbar';
-import Footer from '../footer/footer';
 
 // Styles
 import { useMediaQuery } from '@mui/material';
@@ -27,9 +25,7 @@ const Layout = ({ children }) => {
           horizontal: isMobile ? 'center' : 'right',
         }}
       >
-        <Navbar />
         <PageContainer>{children}</PageContainer>
-        <Footer />
       </SnackbarProvider>
     </React.Fragment>
   );

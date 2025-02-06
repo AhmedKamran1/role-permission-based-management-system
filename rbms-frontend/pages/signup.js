@@ -6,4 +6,4 @@ const SignupPage = () => {
   return <Signup />;
 };
 
-export default withAuth(SignupPage);
+export default SignupPage;

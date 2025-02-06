@@ -6,4 +6,4 @@ const LoginPage = () => {
   return <Login />;
 };
 
-export default withAuth(LoginPage);
+export default LoginPage;
