@@ -6,6 +6,7 @@ import ReviewsIcon from '@mui/icons-material/Reviews';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 import ImageIcon from '@mui/icons-material/Image';
+import { PERMISSIONS } from './permissions';
 
 export const NAV_HEIGHT = 85;
 export const DASHBOARD_DRAWER_FULLWIDTH = 350;
@@ -249,42 +250,21 @@ export const MenuCategory = {
 
 export const dashboardLinks = [
   {
-    id: 'overview',
-    text: 'Overview',
+    id: 'admins',
+    text: 'Admins',
+    requiredPermission: PERMISSIONS.VIEW_ADMINS,
     icon: <SummarizeIcon />,
   },
   {
-    id: 'edit-details',
-    text: 'Edit Details',
-    icon: <EditNoteIcon />,
+    id: 'moderators',
+    text: 'Moderators',
+    requiredPermission: PERMISSIONS.VIEW_MODERATORS,
+    icon: <SummarizeIcon />,
   },
   {
-    id: 'feature-history',
-    text: 'Feature History',
-    hide: true,
-    icon: <MonetizationOnIcon />,
-  },
-  {
-    id: 'reviews',
-    text: 'Reviews',
-    hide: true,
-    icon: <ReviewsIcon />,
-  },
-  {
-    id: 'menu',
-    text: 'Menu',
-    hide: true,
-    icon: <MenuBookIcon />,
-  },
-  {
-    id: 'logs',
-    text: 'Logs',
-    icon: <WorkHistoryIcon />,
-  },
-  {
-    id: 'restaurant-images',
-    text: 'Images',
-    hide: true,
-    icon: <ImageIcon />,
+    id: 'users',
+    text: 'Users',
+    requiredPermission: PERMISSIONS.VIEW_USERS,
+    icon: <SummarizeIcon />,
   },
 ];

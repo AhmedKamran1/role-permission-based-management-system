@@ -1,28 +1,31 @@
-import React, { useCallback, useEffect } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import { useRouter } from 'next/router';
 import { useSelector } from 'react-redux';
-import { selectUserState } from '@/store/user/userSlice';
 
 const withAuth = (WrappedComponent, options = {}) => {
   const AuthGuard = (props) => {
-    const { roles = [null], redirect = '/' } = options;
-    const router = useRouter();
-    const user = useSelector(selectUserState);
+    const { roles = [null], requiredPermission = null, redirect = '/login' } = options;
 
-    const checkAuth = useCallback(() => {
-      if (!roles.includes(user.role)) {
-        router.push(redirect);
-      }
-    }, [router, user.role, roles, redirect]);
+    const router = useRouter();
+    const user = useSelector((state) => state.user);
+
+    const hasAccess = useMemo(() => {
+      return (
+        user?.permissions?.includes(requiredPermission) && roles.includes(user?.role)
+      );
+    }, [user?.permissions?.length, user?.role, requiredPermission, roles.length]);
 
     useEffect(() => {
-      checkAuth();
-    }, [checkAuth]);
+      if (!hasAccess) router.push(redirect);
+      // eslint-disable-next-line
+    }, [hasAccess, redirect]);
 
-    return roles.includes(user.role) ? <WrappedComponent {...props} /> : null;
+    if (!hasAccess) return null;
+
+    const getLayout = WrappedComponent.getLayout || ((page) => page);
+    return getLayout(<WrappedComponent {...props} />);
   };
 
-  AuthGuard.getLayout = WrappedComponent.getLayout;
   return AuthGuard;
 };
 

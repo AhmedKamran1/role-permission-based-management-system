@@ -1,13 +1,5 @@
-export const UserRoles = {
+export const ROLES = {
   USER: 'User',
-  MANAGER: 'Manager',
-};
-
-export const AdminRole = {
   ADMIN: 'Admin',
-};
-
-export const AllRoles = {
-  ...UserRoles,
-  ...AdminRole,
+  MODERATOR: 'Moderator',
 };

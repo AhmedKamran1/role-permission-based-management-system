@@ -60,7 +60,7 @@ const LoginForm = () => {
       const { details, token } = response.data;
       dispatch(userActions.login(details));
       localStorage.setItem('token', token);
-      router.push('/', null, { shallow: true });
+      router.push('/dashboard/users', null, { shallow: true });
     } catch (e) {
       if (e.request?.status === 403) {
         handleShowModal();

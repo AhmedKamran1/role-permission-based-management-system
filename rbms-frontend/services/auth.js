@@ -3,14 +3,12 @@ import api from './api';
 const service = 'auth';
 const port = 5001;
 
-const service2 = 'login';
-
 export const checkEmail = (email) => {
   return api.get(`http://localhost:${port}/api/${service}/check-email?email=${email}`);
 };
 
 export const login = (payload) => {
-  return api.post(`http://localhost:${port}/api/${service2}/login`, payload);
+  return api.post(`http://localhost:${port}/api/${service}/login`, payload);
 };
 
 export const signup = (payload) => {

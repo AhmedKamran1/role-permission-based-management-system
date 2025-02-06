@@ -11,10 +11,6 @@ import { DrawerIcon, CustomDrawer } from '../UI';
 // Icons
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
-import RestaurantLogo from '../restaurant-dashboard/restaurant-logo/restaurant-logo';
-
-// Utils
-import { UserRoles } from '@/utils/roles';
 
 const RestaurantDashboardLayout = ({ children }) => {
   const [open, setOpen] = useState(false);
@@ -33,7 +29,6 @@ const RestaurantDashboardLayout = ({ children }) => {
             <KeyboardArrowRightIcon color="primary" fontSize="large" />
           )}
         </DrawerIcon>
-        <RestaurantLogo open={open} />
         <Navigation />
       </CustomDrawer>
       {children}
@@ -41,4 +36,4 @@ const RestaurantDashboardLayout = ({ children }) => {
   );
 };
 
-export default withAuth(RestaurantDashboardLayout, { roles: [UserRoles.MANAGER] });
+export default RestaurantDashboardLayout;

@@ -10,7 +10,6 @@ import {
 import {
   DASHBOARD_DRAWER_FULLWIDTH,
   DASHBOARD_DRAWER_RESPONSIVEWIDTH,
-  NAV_HEIGHT,
 } from '@/utils/constants';
 
 export const CustomDrawer = styled(Drawer)(({ theme, open }) => ({
@@ -19,8 +18,6 @@ export const CustomDrawer = styled(Drawer)(({ theme, open }) => ({
     width: `${DASHBOARD_DRAWER_FULLWIDTH}px`,
     zIndex: 500,
     position: 'fixed',
-    marginTop: `${NAV_HEIGHT}px`,
-    height: `calc(100% - ${NAV_HEIGHT}px)`,
     boxShadow: '2px 0px 10px lightgrey',
     overflowX: 'hidden',
   },

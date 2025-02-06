@@ -75,7 +75,13 @@ const loginUser = async (req, res) => {
   const token = user.generateAuthToken();
 
   res.send({
-    details: { name: user.name, email: user.email, role: user.role },
+    details: {
+      name: user.name,
+      email: user.email,
+      role: user.role,
+      status: user.status,
+      permissions: user.permissions,
+    },
     token: token,
   });
 };

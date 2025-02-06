@@ -13,7 +13,7 @@ import { getError } from '@/helpers/snackbarHelpers';
 import { signup } from '@/services';
 
 // Utils
-import { UserRoles } from '@/utils/roles';
+
 import { signupSchema } from '@/utils/validation-schema/auth';
 
 // Icons
@@ -39,6 +39,7 @@ import {
   FormButton,
   FormContainer,
 } from '@/components/UI';
+import { ROLES } from '@/utils/roles';
 
 const SignupForm = () => {
   const router = useRouter();
@@ -199,14 +200,14 @@ const SignupForm = () => {
         />
 
         <FlexContainer gap={2}>
-          {Object.values(UserRoles).map((r) => (
+          {Object.values(ROLES).map((r) => (
             <Styles.RoleItem
               key={r}
               selected={+role.includes(r)}
               onClick={() => setRole(r)}
             >
-              {r === UserRoles.USER && <UserIcon />}
-              {r === UserRoles.MANAGER && <ManagerIcon />}
+              {r === ROLES.USER && <UserIcon />}
+              {r === ROLES.MANAGER && <ManagerIcon />}
               <Text variant="sub">{r}</Text>
             </Styles.RoleItem>
           ))}

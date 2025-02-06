@@ -3264,3 +3264,25 @@
   level: 'info',
   timestamp: '2025-02-05 22:13:31'
 }
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-07 02:12:37'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-07 02:12:37'
+}
+{
+  status: 404,
+  message: 'Route not found Route not found',
+  level: 'error',
+  timestamp: '2025-02-07 02:12:37'
+}
+{
+  status: 404,
+  message: 'Route not found Route not found',
+  level: 'error',
+  timestamp: '2025-02-07 02:12:38'
+}

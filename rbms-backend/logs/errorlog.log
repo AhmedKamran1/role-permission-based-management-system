@@ -1304,3 +1304,15 @@
   level: 'error',
   timestamp: '2025-02-05 22:05:03'
 }
+{
+  status: 404,
+  message: 'Route not found Route not found',
+  level: 'error',
+  timestamp: '2025-02-07 02:12:37'
+}
+{
+  status: 404,
+  message: 'Route not found Route not found',
+  level: 'error',
+  timestamp: '2025-02-07 02:12:38'
+}
