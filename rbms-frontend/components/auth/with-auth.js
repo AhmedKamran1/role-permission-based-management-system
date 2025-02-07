@@ -8,12 +8,12 @@ const withAuth = (WrappedComponent, options = {}) => {
 
     const router = useRouter();
     const user = useSelector((state) => state.user);
+    const permissions = user?.permissions || [null];
 
     const hasAccess = useMemo(() => {
-      return (
-        user?.permissions?.includes(requiredPermission) && roles.includes(user?.role)
-      );
-    }, [user?.permissions?.length, user?.role, requiredPermission, roles.length]);
+      console.log(permissions);
+      return permissions.includes(requiredPermission) && roles.includes(user?.role);
+    }, [permissions.length, user?.role, requiredPermission, roles.length]);
 
     useEffect(() => {
       if (!hasAccess) router.push(redirect);

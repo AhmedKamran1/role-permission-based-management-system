@@ -3286,3 +3286,13 @@
   level: 'error',
   timestamp: '2025-02-07 02:12:38'
 }
+{
+  message: 'Listening on PORT: 5001 !',
+  level: 'info',
+  timestamp: '2025-02-07 16:03:32'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-07 16:03:32'
+}

@@ -6,4 +6,4 @@ const SignupPage = () => {
   return <Signup />;
 };
 
-export default SignupPage;
+export default withAuth(SignupPage, { redirect: '/dashboard/users' });
