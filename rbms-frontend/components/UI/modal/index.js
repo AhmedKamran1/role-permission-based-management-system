@@ -15,3 +15,15 @@ export const ModalCancelIcon = styled(IconButton)(({ theme }) => ({
   top: '10px',
   right: '10px',
 }));
+
+export const ModalContainer = styled(ModalContent)(({ theme }) => ({
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  flexDirection: 'column',
+  height: '350px',
+  maxWidth: '500px',
+  backgroundColor: theme.palette.text.primary,
+  border: 'none',
+  gap: theme.spacing(1),
+}));

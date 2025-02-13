@@ -35,8 +35,8 @@ const Navigation = ({ open }) => {
       <List>
         {dashboardLinks.map(
           (item) =>
-            hasPermission(user.role, item.requiredPermission) && (
-              <DrawerListItem onClick={() => handleNavigation(item.id)}>
+            hasPermission(user.role, user.permissions, item.requiredPermission) && (
+              <DrawerListItem key={item.id} onClick={() => handleNavigation(item.id)}>
                 <DrawerListButton selected={selectedPage.includes(item.id)}>
                   <ListItemIcon>{item.icon}</ListItemIcon>
                   <DrawerListText primary={item.text} open={open} />

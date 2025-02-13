@@ -11,7 +11,6 @@ const withAuth = (WrappedComponent, options = {}) => {
     const permissions = user?.permissions || [null];
 
     const hasAccess = useMemo(() => {
-      console.log(permissions);
       return permissions.includes(requiredPermission) && roles.includes(user?.role);
     }, [permissions.length, user?.role, requiredPermission, roles.length]);
 

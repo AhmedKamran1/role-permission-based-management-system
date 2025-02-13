@@ -3,3 +3,8 @@ export const ROLES = {
   ADMIN: 'Admin',
   MODERATOR: 'Moderator',
 };
+
+export const SUBROLES = {
+  'Basic-Admin': 'Basic Admin',
+  'Super-Admin': 'Super Admin',
+};

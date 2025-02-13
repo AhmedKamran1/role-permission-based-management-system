@@ -7,6 +7,7 @@ const initialState = {
   name: null,
   email: null,
   role: null,
+  subRole: null,
   permissions: null,
   status: null,
 };
