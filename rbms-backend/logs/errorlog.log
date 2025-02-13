@@ -1316,3 +1316,21 @@
   level: 'error',
   timestamp: '2025-02-07 02:12:38'
 }
+{
+  status: 400,
+  message: 'Invalid Credentials Invalid Credentials',
+  level: 'error',
+  timestamp: '2025-02-13 03:02:53'
+}
+{
+  status: 404,
+  message: 'Route not found Route not found',
+  level: 'error',
+  timestamp: '2025-02-13 03:59:17'
+}
+{
+  status: 400,
+  message: 'Invalid Credentials Invalid Credentials',
+  level: 'error',
+  timestamp: '2025-02-14 02:08:59'
+}

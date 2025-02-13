@@ -1,12 +1,12 @@
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
-const ROLES = require("../utils/constants/roles");
 const { hashPassword } = require("../utils/password");
 const {
   ROLE_PERMISSIONS,
   PERMISSION_ENUM,
 } = require("../utils/constants/permissions");
 const STATUS = require("../utils/constants/status");
+const { ROLES, SUBROLES } = require("../utils/constants/roles");
 
 const userSchema = new mongoose.Schema({
   name: {
@@ -27,6 +27,13 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
     enum: Object.values(ROLES),
+  },
+  subRole: {
+    type: String,
+    enum: Object.values(SUBROLES),
+    required: function () {
+      return this.role === ROLES.ADMIN;
+    },
   },
   permissions: [
     {

@@ -10,6 +10,9 @@ const {
   updateAdmin,
   updateModerator,
   removeModerator,
+  getAllAdmins,
+  getAllModerators,
+  getAllBasicUsers,
 } = require("../controllers/users");
 
 // middlewares
@@ -29,11 +32,27 @@ const {
 
 // constants
 const TOKENTYPES = require("../utils/constants/token-types");
-const ROLES = require("../utils/constants/roles");
+const { ROLES } = require("../utils/constants/roles");
 const { PERMISSION_ENUM } = require("../utils/constants/permissions");
 
 // Routes
 router.get("/all-users", [authenticate, authorize([ROLES.ADMIN])], getAllUsers);
+
+router.get(
+  "/all-admins",
+  [
+    authenticate,
+    authorize([ROLES.ADMIN, ROLES.MODERATOR], [PERMISSION_ENUM.VIEW_ADMINS]),
+  ],
+  getAllAdmins
+);
+router.get(
+  "/all-moderators",
+  [authenticate, authorize([ROLES.ADMIN, ROLES.MODERATOR])],
+  getAllModerators
+);
+router.get("/all-basic-users", [authenticate], getAllBasicUsers);
+
 router.patch(
   "/update-admin-status/:id",
   [

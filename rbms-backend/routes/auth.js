@@ -25,7 +25,6 @@ const {
 
 // constants
 const TOKENTYPES = require("../utils/constants/token-types");
-const ROLES = require("../utils/constants/roles");
 
 // Routes
 router.post("/register", validateRequest(signupSchema), registerUser);

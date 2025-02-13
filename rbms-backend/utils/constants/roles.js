@@ -4,4 +4,12 @@ const ROLES = {
   MODERATOR: "Moderator",
 };
 
-module.exports = ROLES;
+const SUBROLES = {
+  SUPER_ADMIN: "Super-Admin",
+  BASIC_ADMIN: "Basic-Admin",
+};
+
+module.exports = {
+  ROLES,
+  SUBROLES,
+};

@@ -17,12 +17,30 @@ const {
   FIXED_MODERATOR_PERMISSIONS,
   DYNAMIC_MODERATOR_PERMISSIONS,
 } = require("../utils/constants/permissions");
-const ROLES = require("../utils/constants/roles");
 const STATUS = require("../utils/constants/status");
+const { ROLES, SUBROLES } = require("../utils/constants/roles");
 
 // Get all users
 const getAllUsers = async (req, res) => {
   const users = await User.find();
+  res.send(users);
+};
+
+// Get all admins
+const getAllAdmins = async (req, res) => {
+  const users = await User.find({ role: ROLES.ADMIN });
+  res.send(users);
+};
+
+// Get all moderators
+const getAllModerators = async (req, res) => {
+  const users = await User.find({ role: ROLES.MODERATOR });
+  res.send(users);
+};
+
+// Get all basic users
+const getAllBasicUsers = async (req, res) => {
+  const users = await User.find({ role: ROLES.USER });
   res.send(users);
 };
 
@@ -37,7 +55,11 @@ const updateAdminStatus = async (req, res) => {
   if (user.role !== ROLES.ADMIN) throw BadRequestError("Invalid Role");
 
   if (status === STATUS.APPROVED)
-    user.set({ status, permissions: ROLE_PERMISSIONS.ADMIN.BASIC_ADMIN });
+    user.set({
+      status,
+      subRole: SUBROLES.BASIC_ADMIN,
+      permissions: ROLE_PERMISSIONS.ADMIN.BASIC_ADMIN,
+    });
   else user.set({ status });
 
   res.send(user);
@@ -72,7 +94,11 @@ const updateAdmin = async (req, res) => {
   if (!user) throw NotFoundError("User Not Found");
   if (!ROLE_PERMISSIONS.ADMIN[level]) throw BadRequestError("Invalid Level");
 
-  user.set({ role: ROLES.ADMIN, permissions: ROLE_PERMISSIONS.ADMIN[level] });
+  user.set({
+    role: ROLES.ADMIN,
+    subRole: SUBROLES[level],
+    permissions: ROLE_PERMISSIONS.ADMIN[level],
+  });
 
   await user.save();
 
@@ -150,6 +176,9 @@ const removeModerator = async (req, res) => {
 
 module.exports = {
   getAllUsers,
+  getAllAdmins,
+  getAllModerators,
+  getAllBasicUsers,
   updateAdminStatus,
   updateModeratorStatus,
   updateAdmin,
